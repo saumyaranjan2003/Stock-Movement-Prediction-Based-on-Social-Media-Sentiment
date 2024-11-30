@@ -37,3 +37,24 @@ To scrape tweets:
 ```bash
 python app.py
 ```
+
+
+
+
+
+
+### On Environment Variable Setup (Optional):
+Before running the script, ensure the environment variables are set. For example:
+
+Linux/Mac:
+```bash
+export TWITTER_API_KEY="your_api_key"
+export TWITTER_API_SECRET="your_api_secret"
+export TWITTER_BEARER_TOKEN="your_bearer_token"
+```
+Windows (Command Prompt):
+```cmd
+set TWITTER_API_KEY=your_api_key
+set TWITTER_API_SECRET=your_api_secret
+set TWITTER_BEARER_TOKEN=your_bearer_token
+```
