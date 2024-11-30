@@ -62,3 +62,12 @@ TWITTER_API_KEY=your_api_key
 TWITTER_API_SECRET=your_api_secret
 TWITTER_BEARER_TOKEN=your_bearer_token
 ```
+### Python Code:
+
+```python
+import os
+
+TWITTER_API_KEY = os.getenv('TWITTER_API_KEY')
+TWITTER_API_SECRET = os.getenv('TWITTER_API_SECRET')
+TWITTER_BEARER_TOKEN = os.getenv('TWITTER_BEARER_TOKEN')
+```
